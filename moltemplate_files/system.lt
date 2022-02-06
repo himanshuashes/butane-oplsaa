@@ -10,12 +10,12 @@ write_once("Data Boundary") {
 
 
 
-# Generate an array of 864 = 12 x 12 x 6 Butane molecules
+# Generate an array of 864 = 2 x 2 x 3 Butane molecules
 # which (more or less) uniformly fills the simulation box:
 
-molecules = new Butane [12].move(0, 0, 5.2)
-                       [12].move(0, 5.2, 0)
-                       [6].move(10.4, 0, 0)
+molecules = new Butane [2].move(0, 0, 5.2)
+                       [2].move(0, 5.2, 0)
+                       [3].move(10.4, 0, 0)
 
 
 
