@@ -25,7 +25,7 @@ include         system.in.charges
 # is already expanded.  That means there are 3 steps left:
 
 dump            dumpeq1 all custom 50 traj_eq1_min.lammpstrj id mol type x y z ix iy iz
-thermo_style    custom step temp pe etotal epair ebond eangle edihed press vol
+thermo_style    custom step time temp press vol density pe etotal epair ebond eangle edihed
 thermo          50
 thermo_modify   norm yes
 
