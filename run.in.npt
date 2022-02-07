@@ -101,7 +101,7 @@ unfix fxnpt
 fix fxnpt all npt temp 260.0 260.0 100.0 iso 500.0 1.0 1000.0 drag 2.0
 
 timestep        1.0
-run             100000
+run             200000
 
 write_data   system_after_eq3_npt.data
 
